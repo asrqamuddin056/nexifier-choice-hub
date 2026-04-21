@@ -42,7 +42,7 @@ const Index = () => {
                 </a>
               </Button>
               <Button asChild variant="outline" size="xl">
-                <Link to="/contact">Book a Consultation</Link>
+                <Link to="/contact">Get In Touch</Link>
               </Button>
             </div>
           </div>
@@ -145,7 +145,7 @@ const Index = () => {
             <div className="mt-8">
               <Button asChild size="xl" className="bg-background text-foreground hover:bg-background/90">
                 <Link to="/contact">
-                  Book a Consultation <ArrowRight className="h-4 w-4" />
+                  Get In Touch <ArrowRight className="h-4 w-4" />
                 </Link>
               </Button>
             </div>

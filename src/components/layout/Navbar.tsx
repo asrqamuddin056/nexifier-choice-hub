@@ -59,7 +59,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-3">
           <Button asChild variant="premium" size="sm">
-            <Link to="/contact">Book a Call</Link>
+            <Link to="/contact">Get In Touch</Link>
           </Button>
         </div>
 
@@ -89,7 +89,7 @@ const Navbar = () => {
               </NavLink>
             ))}
             <Button asChild variant="premium" className="mt-2">
-              <Link to="/contact">Book a Call</Link>
+              <Link to="/contact">Get In Touch</Link>
             </Button>
           </div>
         </div>
