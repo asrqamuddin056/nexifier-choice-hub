@@ -55,7 +55,7 @@ const ServicePage = ({
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3 animate-fade-in-up [animation-delay:240ms]">
               <Button asChild variant={ctaBtn} size="xl">
-                <Link to="/contact">Book a Call <ArrowRight className="h-4 w-4" /></Link>
+                <Link to="/contact">Get In Touch <ArrowRight className="h-4 w-4" /></Link>
               </Button>
               <Button asChild variant="outline" size="xl">
                 <a href="#services">See what we do</a>
@@ -156,7 +156,7 @@ const ServicePage = ({
             <div className="mt-8">
               <Button asChild size="xl" className="bg-background text-foreground hover:bg-background/90">
                 <Link to="/contact">
-                  Book a Call <ArrowRight className="h-4 w-4" />
+                  Get In Touch <ArrowRight className="h-4 w-4" />
                 </Link>
               </Button>
             </div>
