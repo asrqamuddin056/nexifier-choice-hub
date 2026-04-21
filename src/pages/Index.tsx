@@ -42,7 +42,7 @@ const Index = () => {
                 </a>
               </Button>
               <Button asChild variant="outline" size="xl">
-                <Link to="/contact">Get In Touch</Link>
+                <a href="https://wa.me/918143710924" target="_blank" rel="noopener noreferrer">Get In Touch</a>
               </Button>
             </div>
           </div>
@@ -144,9 +144,9 @@ const Index = () => {
             </p>
             <div className="mt-8">
               <Button asChild size="xl" className="bg-background text-foreground hover:bg-background/90">
-                <Link to="/contact">
+                <a href="https://wa.me/918143710924" target="_blank" rel="noopener noreferrer">
                   Get In Touch <ArrowRight className="h-4 w-4" />
-                </Link>
+                </a>
               </Button>
             </div>
           </div>
